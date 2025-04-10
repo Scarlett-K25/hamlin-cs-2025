@@ -1,2 +1,2 @@
-# hamlin-cs-2025
+# coral-reefs
 CS 8-1 Website

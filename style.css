@@ -1,6 +1,9 @@
-body{background-color:lightskyblue; font-type: sans-serif; color: darkslateblue; margin: 20px}
-header{background-color: darkslateblue; color:white; padding: 15px; font-type: monospace; margin:-20px}
+body{background-color:lightskyblue; color: darkslateblue; margin: 20px; font-family: sans-serif}
+header{background-image: url(https://i0.wp.com/eos.org/wp-content/uploads/2021/10/ocean-surface.jpg?fit=1200%2C675&ssl=1); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; font-family: georgia; color:white; padding: 15px; font-type: monospace; margin:-20px}
+header a:hover {color: darkslateblue;}
+header a.active {background-color: darkslateblue; color: white;}
 th{padding-left:50px;}
 a{color:white;}
 h1{padding-left:10px}
-img{width: 500px}
+img{width: 500px; align:center;}
+h2{font-family: monospace;}

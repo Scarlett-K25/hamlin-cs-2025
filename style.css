@@ -1,9 +1,18 @@
 body{background-color:lightskyblue; color: darkslateblue; margin: 20px; font-family: sans-serif}
 header{background-image: url(https://i0.wp.com/eos.org/wp-content/uploads/2021/10/ocean-surface.jpg?fit=1200%2C675&ssl=1); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; font-family: georgia; color:white; padding: 15px; font-type: monospace; margin:-20px}
-header a:hover {color: darkslateblue;}
-header a.active {background-color: darkslateblue; color: white;}
+a:hover{color: darkslateblue;}
+ul{list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: darkslateblue}
+li a{display:inline-block; padding: 14px 16px; text-align: center}
+li a:hover {background-color: white; color: darkslateblue;}
+a:active{background-color: white; color: darkslateblue;}
 th{padding-left:50px;}
+ul {
+  position: -webkit-sticky;
+  top: 0;
+}
+li {float: left;}
 a{color:white;}
 h1{padding-left:10px}
 img{width: 500px; align:center;}
 h2{font-family: monospace;}
+footer{margin: -20px;padding: 10px;background-image: url(https://pngcore.com/files/preview/1280x704/11726814269u3lsjcwyw1skkvatgwiahtc3nkxnwugawwgvfmk7s13cbrj1bbk9sncqfh12dn5qribsah9meay1t3sqskszls3vcj4uvrslcdtg.png); background-size: cover; background-attachment: fixed; color: white; font-family:Times-New-Roman}
